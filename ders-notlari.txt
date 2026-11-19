@@ -1,0 +1,21 @@
+Dashboard yöneticinin ana sayfasıdır.ilk aşamada salon üye ve eğitmen sayılarını gösterir.
+git,bilgisayarda değişiklik geçmişini tutar.
+github,aynı projenin uzakta barındırılan kopyasını görmemizi sağlar.
+** git geçmişine commit almak bir dosyayı kaydetmek ve githuba push etmek üç ayrı işlemdir.
+Proje kurulumuna başlarken kontrol edilmesi gereken versiyonları şu şekildedir:
+node -v (nodejs)
+npm -v
+git --version 
+ react-dom tarayıcıda reactı çalıştıran pakettir.
+
+ npm run dev komutu  package.json iççindeki dev komutunu çalıştırır.vite bir geliştirici sunucusu başlatır ve terminalde lokal adresi verir.
+ genellikle localhost.5173/ görürüz ancak port doluysa başka bir port kullanılabilir.
+sunucuyu açık tuttuğumuz sürece dosya değişikliklerini gerçek zamanlı ekranda görebiliriz.
+
+package.json içinde paket adları ve npm komutları,package-lock.json ise içinde npm in çözdüğü sürümler bulunur.
+node_modules klasörü npm tarafından tekrar üretilebilir ve git e eklenmez. .gitignore dosyasını şablonun oluşturduğu biçimde koruruz.
+
+github ta proje eski halinde görünüyorsa projede aşağıdaki üç soruya sırasıyla bakılmalı:
+1) dosya kayıt oldu mu?
+2) commit oluşturulmuş mu?
+3) doğru branch e push edilmiş mi?
